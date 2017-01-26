@@ -71,10 +71,10 @@ module.exports = function (grunt) {
       },
       test: {
         constants: {
-          API_END_POINT: 'http://mywifi.dev:8080/api/v1',
-          API_URL: 'http://mywifi.dev:8080',
+          API_END_POINT: 'https://api.ctapp.io/api/v1',
+          API_URL: 'https://api.ctapp.io',
           STRIPE_KEY: 'pk_test_E3rGjKckx4EUL65pXgv6zUed',
-          AUTH_URL: 'http://id.mywifi.dev:8080',
+          AUTH_URL: 'https://api.ctapp.io',
           SLACK_TOKEN: '3540010629.12007999527',
           CHIMP_TOKEN: '531543883634',
           INTERCOM: 'xxx',
@@ -82,7 +82,7 @@ module.exports = function (grunt) {
           DEBUG: true,
           COLOURS: '#009688 #FF5722 #03A9F4 #607D8B #F44336 #00BCD4',
           COMMITHASH: commitHash.stdout,
-          THEMES: []
+		  THEMES: []
         }
       },
       development: {
@@ -90,40 +90,17 @@ module.exports = function (grunt) {
       },
       beta: {
         constants: {
-          API_END_POINT: 'https://beta.ctapp.io/api/v1',
-          API_URL: 'https://beta.ctapp.io',
+          API_END_POINT: 'https://api.ctapp.io/api/v1',
+          API_URL: 'https://api.ctapp.io',
           STRIPE_KEY: 'pk_live_Fe0qoaafcT68z8OjFYJwg1vC',
-          AUTH_URL: 'https://id.ctapp.io',
+          AUTH_URL: 'https://api.ctapp.io',
           SLACK_TOKEN: '3540010629.11828901815',
           CHIMP_TOKEN: '279197455989',
           PUSHER: 'f5c774e098156e548079',
           INTERCOM: 'zklfhs87',
           DEBUG: true,
           COLOURS: '#009688 #FF5722 #03A9F4 #607D8B #F44336 #00BCD4',
-          COMMITHASH: commitHash.stdout,
-          THEMES: [
-            "pink",
-            "orange",
-            "deep-orange",
-            "blue",
-            "blue-grey",
-            "light-blue",
-            "red",
-            "green",
-            "light-green",
-            "lime",
-            "yellow",
-            "teal",
-            "brown",
-            "purple",
-            "deep-purple",
-            "cyan",
-            "yellow",
-            "amber",
-            "indigo",
-            "brown",
-            "grey",
-          ]
+          COMMITHASH: commitHash.stdout
         }
       },
       production: {
@@ -138,30 +115,7 @@ module.exports = function (grunt) {
           INTERCOM: 'zklfhs87',
           DEBUG: true,
           COLOURS: '#009688 #FF5722 #03A9F4 #607D8B #F44336 #00BCD4',
-          COMMITHASH: commitHash.stdout,
-          THEMES: [
-            "pink",
-            "orange",
-            "deep-orange",
-            "blue",
-            "blue-grey",
-            "light-blue",
-            "red",
-            "green",
-            "light-green",
-            "lime",
-            "yellow",
-            "teal",
-            "brown",
-            "purple",
-            "deep-purple",
-            "cyan",
-            "yellow",
-            "amber",
-            "indigo",
-            "brown",
-            "grey",
-          ]
+          COMMITHASH: commitHash.stdout
         }
       }
     },
@@ -602,6 +556,12 @@ module.exports = function (grunt) {
           remote: 'git@heroku.com:limitless-brook-11104.git',
           branch: 'master'
         }
+      },
+      heroku: {
+        options: {
+          remote: 'git@heroku.com:zak-cucumber.git',
+          branch: 'master'
+        }
       }
     },
 
@@ -762,7 +722,6 @@ module.exports = function (grunt) {
     this.async();
   });
 
-  // This is not being used, if dormant, we should remove completely
   grunt.registerTask('configServer', function(target) {
       var output = "// Generated! Do not edit!\n"
                    + "'use strict';module.exports = ";

@@ -200,7 +200,7 @@ msgid_plural "{{ ::item.clients_online}} clients online."
 msgstr[0] "1 client en ligne."
 msgstr[1] "{{ ::item.clients_online}} clients en ligne."
 
-#: client/components/locations/locations.directives.js:1244
+#: client/components/locations/locations.directives.js:1249
 msgid "1 device zone"
 msgid_plural "{{$count}} device zones"
 msgstr[0] "1 groupe du périphérique "
@@ -710,7 +710,7 @@ msgid "Action triggers not available for {{ trigger.type }}s"
 msgstr ""
 
 #: client/components/directives/triggers.directives.js:266
-#: client/components/events/events.directives.js:51
+#: client/components/events/events.directives.js:52
 #, fuzzy
 msgid "Actions"
 msgstr "Action"
@@ -827,8 +827,8 @@ msgstr ""
 "Ajouter une carte à votre compte avant de choisir un plan dans la liste ci-"
 "dessous."
 
-#: client/components/boxes/boxes.directives.js:1704
-#: client/components/boxes/boxes.directives.js:1709
+#: client/components/boxes/boxes.directives.js:1715
+#: client/components/boxes/boxes.directives.js:1720
 #: client/components/boxes/new/_add.html:123
 msgid "Add a comment"
 msgstr "Ajouter un commentaire"
@@ -959,7 +959,7 @@ msgstr ""
 msgid "Admin Users"
 msgstr "Utilisateurs Admin"
 
-#: client/components/locations/locations.directives.js:520
+#: client/components/locations/locations.directives.js:521
 #: client/components/locations/locations.filters.js:248
 msgid "Administrator"
 msgstr "Administrateur"
@@ -998,7 +998,7 @@ msgstr "Afghanistan"
 msgid "Albania"
 msgstr "Albanie"
 
-#: client/components/events/events.directives.js:72
+#: client/components/events/events.directives.js:73
 #, fuzzy
 msgid "Alert"
 msgstr "Alertes"
@@ -1025,8 +1025,8 @@ msgid "Alice in Wonderland"
 msgstr "Alice au pays des merveilles"
 
 #: client/components/directives/triggers.directives.js:249
-#: client/components/events/events.directives.js:50
-#: client/components/events/events.directives.js:71
+#: client/components/events/events.directives.js:51
+#: client/components/events/events.directives.js:72
 msgid "All"
 msgstr "Tout"
 
@@ -1039,7 +1039,7 @@ msgstr "Tous le temps, multi-usage"
 msgid "All available bands"
 msgstr "Toutes les bandes disponibles"
 
-#: client/components/locations/locations.directives.js:1908
+#: client/components/locations/locations.directives.js:1913
 msgid "All systems operational."
 msgstr "Tous les systèmes opérationnels"
 
@@ -1101,7 +1101,7 @@ msgstr "Une erreur inconnue est survenue, essayez à nouveau."
 msgid "An upgrade is available for this device"
 msgstr "Une mise à jour est disponible pour ce périphérique"
 
-#: client/components/locations/locations.directives.js:1693
+#: client/components/locations/locations.directives.js:1698
 msgid "Analytics"
 msgstr ""
 
@@ -1183,25 +1183,25 @@ msgstr "Applications"
 msgid "Aps Included in Plan"
 msgstr "Aps inclus dans le plan"
 
-#: client/components/locations/locations.directives.js:1705
-#: client/components/locations/locations.directives.js:1758
-#: client/components/locations/locations.directives.js:1809
+#: client/components/locations/locations.directives.js:1710
+#: client/components/locations/locations.directives.js:1763
+#: client/components/locations/locations.directives.js:1814
 msgid "Archive"
 msgstr "Archives"
 
-#: client/components/locations/locations.directives.js:1752
+#: client/components/locations/locations.directives.js:1757
 msgid "Are you sure you want to archive this location"
 msgstr "Êtes-vous sûr que vous voulez archiver ce site ?"
 
-#: client/components/boxes/boxes.directives.js:1421
+#: client/components/boxes/boxes.directives.js:1430
 msgid "Are you sure you want to cancel?"
 msgstr "Êtes-vous sûr que vous voulez annuler ?"
 
-#: client/components/locations/locations.directives.js:314
+#: client/components/locations/locations.directives.js:315
 msgid "Are you sure you want to change the API Token?"
 msgstr "Êtes-vous sûr de vouloir changer le Token de l'API ?"
 
-#: client/components/locations/locations.directives.js:1101
+#: client/components/locations/locations.directives.js:1106
 msgid "Are you sure you want to delete these devices?"
 msgstr "Êtes-vous sûr de vouloir supprimer ces périphériques ?"
 
@@ -1222,7 +1222,7 @@ msgstr "Voulez-vous vraiment supprimer ce périphérique ?"
 msgid "Are you sure you want to delete this filter?"
 msgstr "Voulez-vous vraiment supprimer ce filtre ?"
 
-#: client/components/locations/locations.directives.js:1807
+#: client/components/locations/locations.directives.js:1812
 msgid "Are you sure you want to delete this location?"
 msgstr "Voulez-vous vraiment supprimer ce site ?"
 
@@ -1271,11 +1271,11 @@ msgstr ""
 "Etes-vous sûr de vouloir supprimer cette intégration? Veuillez noter svp que "
 "cela ne sera pas supprimer de Slack"
 
-#: client/components/locations/locations.directives.js:2072
+#: client/components/locations/locations.directives.js:2077
 msgid "Are you sure you want to remove this location?"
 msgstr "Êtes-vous sûr de vouloir enlever ce site ?"
 
-#: client/components/locations/locations.directives.js:1749
+#: client/components/locations/locations.directives.js:1754
 msgid "Are you sure you want to restore this location"
 msgstr "Etes-vous sûr que vous voulez restaurer ce site "
 
@@ -1307,8 +1307,8 @@ msgstr "codes associés"
 msgid "Attribute: {{ name | titleCase }}"
 msgstr "Attribut: {{name | titlecase}}"
 
-#: client/app/main/main.controllers.js:127
-#: client/app/main/main.controllers.js:87
+#: client/app/main/main.controllers.js:122
+#: client/app/main/main.controllers.js:82
 #: client/components/audit/audits.directives.js:21
 #: client/components/audit/index.html:6
 #: client/components/locations/locations.controller.js:273
@@ -1370,7 +1370,7 @@ msgstr "Intervalle de Reboot Automatique (mins)"
 msgid "Automatically change?"
 msgstr "Changer automatiquement ?"
 
-#: client/components/boxes/boxes.directives.js:1630
+#: client/components/boxes/boxes.directives.js:1641
 msgid "Automatically discovered"
 msgstr "Découverte automatique"
 
@@ -1711,12 +1711,12 @@ msgid "Box successfully deleted"
 msgstr "Périphérique supprimé avec succès"
 
 #: client/components/boxes/boxes.directives.js:299
-#: client/components/locations/locations.directives.js:968
+#: client/components/locations/locations.directives.js:969
 msgid "Box successfully rebooted."
 msgstr "Périphérique redémarré avec succès."
 
 #: client/components/boxes/boxes.directives.js:379
-#: client/components/locations/locations.directives.js:2191
+#: client/components/locations/locations.directives.js:2196
 msgid "Box successfully {{val}}."
 msgstr "Périphérique {{val}} avec succès."
 
@@ -1729,13 +1729,13 @@ msgstr "Tag communs"
 msgid "Box transferred successfully."
 msgstr "Périphérique transféré avec succès."
 
-#: client/components/boxes/boxes.directives.js:1462
+#: client/components/boxes/boxes.directives.js:1473
 msgid "Box upgrading. Do not unplug or restart your device."
 msgstr ""
 "Mis à jour en cours. Ne débranchez ou redémarrez pas votre périphérique."
 
 #: client/components/directives/triggers.directives.js:250
-#: client/components/events/events.directives.js:52
+#: client/components/events/events.directives.js:53
 #: client/components/locations/index/_favourites.html:51
 #: client/components/locations/show/_dashing.html:13
 #: client/components/users/quotas/_index.html:34
@@ -1796,8 +1796,8 @@ msgstr ""
 msgid "Branding"
 msgstr "Marquage"
 
-#: client/app/main/main.controllers.js:384
-#: client/app/main/main.controllers.js:398
+#: client/app/main/main.controllers.js:295
+#: client/app/main/main.controllers.js:309
 #: client/components/brands/brands.directives.js:11
 #: client/components/brands/brands.directives.js:62
 #, fuzzy
@@ -1939,7 +1939,7 @@ msgid "CNAME"
 msgstr ""
 
 #: client/components/boxes/show/_toast_reset_confirm.html:7
-#: client/components/locations/locations.directives.js:1760
+#: client/components/locations/locations.directives.js:1765
 msgid "CONFIRM"
 msgstr "CONFIRMER"
 
@@ -2004,14 +2004,14 @@ msgstr "Canada"
 #: client/components/forms/forms.directives.js:185
 #: client/components/locations/boxes/dialog.html:20
 #: client/components/locations/boxes/zones.html:35
-#: client/components/locations/locations.directives.js:1014
-#: client/components/locations/locations.directives.js:1105
-#: client/components/locations/locations.directives.js:1761
-#: client/components/locations/locations.directives.js:1812
-#: client/components/locations/locations.directives.js:2075
-#: client/components/locations/locations.directives.js:319
-#: client/components/locations/locations.directives.js:956
-#: client/components/locations/locations.directives.js:984
+#: client/components/locations/locations.directives.js:1015
+#: client/components/locations/locations.directives.js:1110
+#: client/components/locations/locations.directives.js:1766
+#: client/components/locations/locations.directives.js:1817
+#: client/components/locations/locations.directives.js:2080
+#: client/components/locations/locations.directives.js:320
+#: client/components/locations/locations.directives.js:957
+#: client/components/locations/locations.directives.js:985
 #: client/components/locations/settings/_transfer.html:25
 #: client/components/locations/show/edit-modal.html:105
 #: client/components/locations/users/_edit.html:27
@@ -2043,7 +2043,7 @@ msgstr "Annule"
 msgid "Cancel Subscription"
 msgstr "Annuler l'abonnement"
 
-#: client/components/boxes/boxes.directives.js:1423
+#: client/components/boxes/boxes.directives.js:1432
 msgid "Cancel Upgrade"
 msgstr "Annuler la mise à niveau"
 
@@ -2379,7 +2379,7 @@ msgid "Client {{ client.online | splashStatus:client.splash_status }}"
 msgstr "Client {{ client.online | splashStatus:client.splash_status}}"
 
 #: client/components/directives/triggers.directives.js:251
-#: client/components/events/events.directives.js:53
+#: client/components/events/events.directives.js:54
 #: client/components/locations/boxes/_table.html:51
 #: client/components/locations/locations.controller.js:85
 #: client/components/splash_pages/splash_pages.controller.js:24
@@ -2439,7 +2439,7 @@ msgstr "Code Désactivé"
 msgid "Code successfully deleted."
 msgstr "Code supprimé avec succès."
 
-#: client/components/clients/clients.directives.js:1230
+#: client/components/clients/clients.directives.js:1231
 #: client/components/codes/codes.directives.js:90
 #: client/components/splash_codes/splash_codes.directives.js:144
 msgid "Code {{text}} successfully."
@@ -2576,7 +2576,7 @@ msgstr "Costa Rica"
 msgid "Could not delete box"
 msgstr "Impossible de supprimer la boîte"
 
-#: client/components/boxes/boxes.directives.js:699
+#: client/components/boxes/boxes.directives.js:703
 msgid "Could not delete the payload."
 msgstr "Impossible de supprimer la charge utile."
 
@@ -2594,7 +2594,7 @@ msgstr "Impossible de planifier la mise à niveau, réessayez svp."
 msgid "Could not reset this device, please try again"
 msgstr "Impossible de réinitialiser ce dispositif, veuillez svp réessayer"
 
-#: client/components/boxes/boxes.directives.js:1361
+#: client/components/boxes/boxes.directives.js:1370
 msgid "Could not schedule upgrade, try again."
 msgstr "Impossible de planifier la mise à niveau, réessayez svp."
 
@@ -3026,7 +3026,7 @@ msgstr "Date"
 msgid "Days"
 msgstr "Jours"
 
-#: client/components/events/events.directives.js:74
+#: client/components/events/events.directives.js:75
 #, fuzzy
 msgid "Debug"
 msgstr "Mode débogage"
@@ -3089,9 +3089,9 @@ msgstr ""
 #: client/components/directives/zones.directives.js:343
 #: client/components/directives/zones.directives.js:56
 #: client/components/forms/forms.directives.js:184
-#: client/components/locations/locations.directives.js:1103
-#: client/components/locations/locations.directives.js:1711
-#: client/components/locations/locations.directives.js:874
+#: client/components/locations/locations.directives.js:1108
+#: client/components/locations/locations.directives.js:1716
+#: client/components/locations/locations.directives.js:875
 #: client/components/networks/networks.directives.js:135
 #: client/components/networks/networks.directives.js:381
 #: client/components/splash_codes/splash_codes.directives.js:114
@@ -3158,7 +3158,7 @@ msgstr "Supprimer le Produit"
 msgid "Delete Splash"
 msgstr "Supprimer Portail"
 
-#: client/components/locations/locations.directives.js:1009
+#: client/components/locations/locations.directives.js:1010
 msgid "Delete This Device Permanently?"
 msgstr "Supprimer ce dispositif de manière permanente ?"
 
@@ -3188,7 +3188,7 @@ msgid "Delete Zone"
 msgstr "Supprimer le Groupe"
 
 #: client/components/boxes/boxes.directives.js:313
-#: client/components/locations/locations.directives.js:1013
+#: client/components/locations/locations.directives.js:1014
 msgid "Delete it"
 msgstr "Supprimer le"
 
@@ -3201,13 +3201,13 @@ msgstr "Supprimer le"
 msgid "Deleted"
 msgstr "Supprimé"
 
-#: client/components/locations/locations.directives.js:1119
+#: client/components/locations/locations.directives.js:1124
 msgid "Deleted 1 device"
 msgid_plural "Deleted {{$count}} devices"
 msgstr[0] "Supprimé 1 périphérique"
 msgstr[1] "Supprimé 1 périphérique"
 
-#: client/components/locations/locations.directives.js:1017
+#: client/components/locations/locations.directives.js:1018
 msgid "Deleted device with mac {{address}}"
 msgstr "Supprimé le périphérique avec mac {{address}}"
 
@@ -3305,7 +3305,7 @@ msgstr ""
 "par AP."
 
 #: client/components/boxes/show/_non_ps.html:4
-#: client/components/clients/clients.directives.js:1190
+#: client/components/clients/clients.directives.js:1191
 #: client/components/codes/_index.html:44
 #: client/components/controllers/brands.controller.js:25
 #: client/components/directives/users.directives.js:360
@@ -3319,7 +3319,7 @@ msgstr "Détails"
 msgid "Detected"
 msgstr "reconnecté"
 
-#: client/app/main/main.controllers.js:138
+#: client/app/main/main.controllers.js:133
 #: client/components/apps/apps.directives.js:11 client/index.html:159
 msgid "Developer"
 msgstr "Développeur"
@@ -3371,7 +3371,7 @@ msgstr "Type de périphérique"
 msgid "Device Usage"
 msgstr "Utilisation du Périphérique"
 
-#: client/components/locations/locations.directives.js:1280
+#: client/components/locations/locations.directives.js:1285
 msgid "Device description updated."
 msgstr "Description du périphérique mis à jour."
 
@@ -3407,7 +3407,7 @@ msgstr "Remise à zéro du Périphérique en cours, veuillez patienter svp."
 msgid "Device resync in progress. Please wait."
 msgstr "Resynchronisation du Périphérique en cours. Veuillez svp attendre."
 
-#: client/components/locations/locations.directives.js:999
+#: client/components/locations/locations.directives.js:1000
 #, fuzzy
 msgid "Device resynced successfully."
 msgstr "Le Périphérique est installé avec succès."
@@ -3418,7 +3418,7 @@ msgstr "Mise à niveau du Périphérique"
 
 #: client/components/locations/index/_list.html:74
 #: client/components/locations/locations.controller.js:69
-#: client/components/locations/locations.directives.js:1675
+#: client/components/locations/locations.directives.js:1680
 #: client/components/splash_pages/view-store.html:90
 msgid "Devices"
 msgstr "Périphériques"
@@ -3496,7 +3496,7 @@ msgstr "Découverte"
 msgid "Discover my Devices"
 msgstr "Découvrer mes périphériques"
 
-#: client/app/main/main.controllers.js:154 client/index.html:144
+#: client/app/main/main.controllers.js:149 client/index.html:144
 msgid "Discussions"
 msgstr "Débats"
 
@@ -3520,7 +3520,7 @@ msgstr "Distance"
 msgid "Djibouti"
 msgstr "Djibouti"
 
-#: client/app/main/main.controllers.js:146 client/index.html:137
+#: client/app/main/main.controllers.js:141 client/index.html:137
 msgid "Documentation"
 msgstr "Documentation"
 
@@ -3603,8 +3603,8 @@ msgstr "Télécharger vos codes en utilisant les liens ci-dessous."
 msgid "Download {{ splash.download_speed | mbps }}"
 msgstr "Télécharger {{ splash.download_speed | mbps }}"
 
-#: client/app/main/main.controllers.js:168
-#: client/components/boxes/boxes.directives.js:1492
+#: client/app/main/main.controllers.js:163
+#: client/components/boxes/boxes.directives.js:1503
 #: client/components/locations/show/_index.html:70
 #: client/components/locations/show/_index.html:71
 #: client/components/vouchers/_show.html:159 client/index.html:152
@@ -3665,10 +3665,11 @@ msgstr "Équateur"
 #: client/components/apps/_show.html:63
 #: client/components/boxes/boxes.directives.js:78
 #: client/components/directives/group_policies.directives.js:27
+#: client/components/directives/triggers.directives.js:70
 #: client/components/directives/users.directives.js:1176
 #: client/components/directives/zones.directives.js:235
-#: client/components/locations/locations.directives.js:575
-#: client/components/locations/locations.directives.js:844
+#: client/components/locations/locations.directives.js:576
+#: client/components/locations/locations.directives.js:845
 #: client/components/locations/show/header.html:40
 #: client/components/splash_pages/splash_pages.directives.js:44
 #: client/components/vouchers/vouchers.directives.js:332
@@ -3714,7 +3715,7 @@ msgid "Edit User Role"
 msgstr "Modifier Rôle de l'utilisateur"
 
 #: client/components/locations/boxes/_table.html:19
-#: client/components/locations/locations.directives.js:862
+#: client/components/locations/locations.directives.js:863
 msgid "Edit Zones"
 msgstr "Modifier Groupes"
 
@@ -3730,7 +3731,7 @@ msgstr "Modifier les paramètres avancés pour les bons"
 msgid "Edit values"
 msgstr "Modifier les valeurs"
 
-#: client/components/locations/locations.directives.js:521
+#: client/components/locations/locations.directives.js:522
 #: client/components/locations/locations.filters.js:250
 msgid "Editor"
 msgstr "Editeur"
@@ -3749,7 +3750,7 @@ msgstr "Salvador"
 #: client/components/audit/social/_index.html:54
 #: client/components/directives/triggers.directives.js:252
 #: client/components/directives/users.directives.js:397
-#: client/components/events/events.directives.js:54
+#: client/components/events/events.directives.js:55
 #: client/components/forms/forms.directives.js:9
 #: client/components/locations/users/_index.html:37
 #: client/components/locations/users/_invite.html:32
@@ -4223,8 +4224,8 @@ msgstr "Détails de l'événement"
 msgid "Event Type"
 msgstr "Type d'événement"
 
-#: client/app/main/main.controllers.js:113
-#: client/app/main/main.controllers.js:375
+#: client/app/main/main.controllers.js:108
+#: client/app/main/main.controllers.js:286
 #: client/components/locations/locations.controller.js:280
 msgid "Events"
 msgstr "Des événements"
@@ -4315,17 +4316,17 @@ msgstr "Échec"
 msgid "Failed Tx Count"
 msgstr "Échec du Comptage Tx"
 
-#: client/components/locations/locations.directives.js:1028
+#: client/components/locations/locations.directives.js:1029
 msgid "Failed to delete this box, please try again."
 msgstr "Impossible de supprimer cette case, veuillez svp réessayer."
 
 #: client/components/boxes/boxes.directives.js:301
-#: client/components/locations/locations.directives.js:970
+#: client/components/locations/locations.directives.js:971
 msgid "Failed to reboot box, please try again."
 msgstr "Échec du redémarrage, veuillez svp réessayer ultérieurement."
 
 #: client/components/boxes/boxes.directives.js:272
-#: client/components/locations/locations.directives.js:1002
+#: client/components/locations/locations.directives.js:1003
 msgid "Failed to resync device, please try again."
 msgstr ""
 "Échec de resynchro du périphérique , veuillez svp réessayer ultérieurement."
@@ -4766,7 +4767,7 @@ msgstr "Guest Email"
 
 #: client/components/audit/audits.directives.js:63
 #: client/components/directives/triggers.directives.js:253
-#: client/components/events/events.directives.js:55
+#: client/components/events/events.directives.js:56
 msgid "Guests"
 msgstr "Clients"
 
@@ -4888,7 +4889,7 @@ msgstr "Histoire"
 msgid "Holy See (Vatican City State)"
 msgstr "Ville Sainte (État de la Cité du Vatican)"
 
-#: client/app/main/main.controllers.js:99
+#: client/app/main/main.controllers.js:94
 #: client/components/locations/locations.controller.js:254
 msgid "Home"
 msgstr "Accueil"
@@ -5012,7 +5013,7 @@ msgstr ""
 "Si le signal du client descend en dessous de 16dB, ils peuvent avoir des "
 "problèmes de navigation."
 
-#: client/components/boxes/boxes.directives.js:1422
+#: client/components/boxes/boxes.directives.js:1431
 msgid ""
 "If the upgrade has begun, you cannot stop it. Please wait until it completes."
 msgstr ""
@@ -5089,7 +5090,7 @@ msgstr "Inde"
 msgid "Indonesia"
 msgstr "Indonésie"
 
-#: client/components/events/events.directives.js:73
+#: client/components/events/events.directives.js:74
 msgid "Info"
 msgstr "Info"
 
@@ -5569,23 +5570,23 @@ msgstr "Localisation Header"
 msgid "Location name"
 msgstr "Nom de l'emplacement"
 
-#: client/components/locations/locations.directives.js:2102
+#: client/components/locations/locations.directives.js:2107
 msgid "Location removed from favourites."
 msgstr "Lieu retiré des favoris."
 
-#: client/components/locations/locations.directives.js:1786
+#: client/components/locations/locations.directives.js:1791
 msgid "Location successfully archived."
 msgstr "Site archivé avec succès."
 
-#: client/components/locations/locations.directives.js:435
+#: client/components/locations/locations.directives.js:436
 msgid "Location successfully created."
 msgstr "Site créé avec succès."
 
-#: client/components/locations/locations.directives.js:1782
+#: client/components/locations/locations.directives.js:1787
 msgid "Location successfully restored."
 msgstr "Site restauré avec succès."
 
-#: client/components/locations/locations.directives.js:1850
+#: client/components/locations/locations.directives.js:1855
 msgid "Location successfully transferred."
 msgstr "Site transféré avec succès."
 
@@ -5593,12 +5594,12 @@ msgstr "Site transféré avec succès."
 msgid "Location {{val}} favourites."
 msgstr "Sites {{val}} favoris."
 
-#: client/app/main/main.controllers.js:106
-#: client/app/main/main.controllers.js:368
+#: client/app/main/main.controllers.js:101
+#: client/app/main/main.controllers.js:279
 #: client/components/directives/triggers.directives.js:254
-#: client/components/events/events.directives.js:56
+#: client/components/events/events.directives.js:57
 #: client/components/locations/locations.controller.js:259
-#: client/components/locations/locations.directives.js:56
+#: client/components/locations/locations.directives.js:57
 #: client/components/locations/show/_dashing.html:33
 #: client/components/users/layouts/sidebar.html:7
 #: client/components/users/locations/index.html:15
@@ -5632,7 +5633,7 @@ msgstr "image de Login"
 msgid "Logo"
 msgstr "logo"
 
-#: client/components/clients/clients.directives.js:1053
+#: client/components/clients/clients.directives.js:1054
 #: client/components/directives/users.directives.js:678
 #: client/components/views/triggers/_edit.html:573 client/index.html:168
 #: client/index.html:204
@@ -5678,9 +5679,9 @@ msgstr "Minuscules seulement, pas de chiffres ou caractères spéciaux"
 msgid "Lowercase, letters only."
 msgstr "Minuscules, lettres seulement."
 
-#: client/components/locations/locations.directives.js:1011
-#: client/components/locations/locations.directives.js:953
-#: client/components/locations/locations.directives.js:981
+#: client/components/locations/locations.directives.js:1012
+#: client/components/locations/locations.directives.js:954
+#: client/components/locations/locations.directives.js:982
 msgid "Lucky day"
 msgstr "Jour de chance"
 
@@ -6736,7 +6737,7 @@ msgstr "L'état du réseau"
 
 #: client/components/audit/social/_index.html:57
 #: client/components/directives/triggers.directives.js:255
-#: client/components/events/events.directives.js:57
+#: client/components/events/events.directives.js:58
 #: client/components/locations/locations.controller.js:77
 #: client/components/locations/networks/_index.html:11
 #: client/components/locations/networks/_show.html:6
@@ -6863,7 +6864,7 @@ msgstr "Aucun mode de numérisation"
 msgid "No Splash Pages Found"
 msgstr "Aucun Portail trouvé"
 
-#: client/components/locations/locations.directives.js:1165
+#: client/components/locations/locations.directives.js:1170
 msgid "No Zone"
 msgstr "Aucune Groupe"
 
@@ -6995,7 +6996,7 @@ msgstr "Rien à voir ici, veuillez svp essayer ailleurs."
 msgid "Notification Settings"
 msgstr "Paramètres Notification"
 
-#: client/components/locations/locations.directives.js:1669
+#: client/components/locations/locations.directives.js:1674
 #: client/components/users/alerts/_index.html:7
 #: client/components/users/users.controllers.js:75
 msgid "Notifications"
@@ -7051,7 +7052,7 @@ msgstr "OK"
 msgid "Object"
 msgstr "Sujet"
 
-#: client/components/locations/locations.directives.js:523
+#: client/components/locations/locations.directives.js:524
 #: client/components/locations/locations.filters.js:254
 msgid "Observer"
 msgstr "Observateur"
@@ -7081,7 +7082,7 @@ msgstr "Oh salut, c'est vous"
 msgid "Oh, there's been a problem logging you in"
 msgstr "Oh, il y a eu un problème pour vous identifier"
 
-#: client/components/locations/locations.directives.js:2074
+#: client/components/locations/locations.directives.js:2079
 msgid "Ok"
 msgstr "Ok"
 
@@ -7237,7 +7238,7 @@ msgstr "Total de la commande: {{order.total / 100 | monnaie: order.currency}}"
 msgid "Order successfully refunded."
 msgstr "Commande remboursée avec succès."
 
-#: client/components/clients/clients.directives.js:1069
+#: client/components/clients/clients.directives.js:1070
 #: client/components/users/layouts/sidebar.html:10
 msgid "Orders"
 msgstr "Commandes"
@@ -7332,7 +7333,7 @@ msgstr "Papouasie-Nouvelle-Guinée"
 msgid "Paraguay"
 msgstr "Paraguay"
 
-#: client/components/locations/locations.directives.js:1911
+#: client/components/locations/locations.directives.js:1916
 msgid "Partially degraded service."
 msgstr "Service partiellement dégradé."
 
@@ -7402,23 +7403,23 @@ msgstr "Nom d'utilisateur Paypal"
 msgid "Payload Output"
 msgstr "Résultat utile"
 
-#: client/components/boxes/boxes.directives.js:739
+#: client/components/boxes/boxes.directives.js:745
 msgid "Payload completed!"
 msgstr "Charge utile terminée!"
 
-#: client/components/locations/locations.directives.js:1092
+#: client/components/locations/locations.directives.js:1091
 msgid "Payload could not be sent."
 msgstr "La Charge utile n'a pas pu être envoyé."
 
-#: client/components/boxes/boxes.directives.js:697
+#: client/components/boxes/boxes.directives.js:701
 msgid "Payload deleted successfully"
 msgstr "Charge utile supprimée"
 
-#: client/components/payloads/payloads.directives.js:34
+#: client/components/payloads/payloads.directives.js:36
 msgid "Payload running, please wait."
 msgstr "Charge utile en cours veuillez svp attendre."
 
-#: client/components/locations/locations.directives.js:1089
+#: client/components/locations/locations.directives.js:1088
 msgid "Payload sent successfully."
 msgstr "Charge utile envoyée avec succès."
 
@@ -7485,7 +7486,7 @@ msgstr "Ajouter un périphérique svp"
 msgid "Please Create an App"
 msgstr "Créer une App svp"
 
-#: client/components/locations/locations.directives.js:1010
+#: client/components/locations/locations.directives.js:1011
 msgid "Please be careful, this cannot be reversed."
 msgstr "Veuillez svp faire attention, ceci est irrémédiable."
 
@@ -7626,7 +7627,7 @@ msgstr "S'il vous plaît patienter pendant que nous chargeons le plan."
 msgid "Poland"
 msgstr "Pologne"
 
-#: client/components/clients/clients.directives.js:1082
+#: client/components/clients/clients.directives.js:1083
 #: client/components/locations/clients/_columns_filter.html:107
 #: client/components/locations/clients/_index.html:211
 #: client/components/locations/locations.controller.js:101
@@ -7751,7 +7752,7 @@ msgstr "Production"
 msgid "Products"
 msgstr "Produits"
 
-#: client/app/main/main.controllers.js:417
+#: client/app/main/main.controllers.js:328
 #: client/components/users/layouts/sidebar.html:2
 #: client/components/users/show/_index.html:7
 #: client/components/users/users.controllers.js:41
@@ -7767,13 +7768,13 @@ msgid "Project Role"
 msgstr "Rôle du projet"
 
 #: client/components/directives/triggers.directives.js:272
-#: client/components/events/events.directives.js:67
+#: client/components/events/events.directives.js:68
 #, fuzzy
 msgid "Project Users"
 msgstr "Rôle du projet"
 
 #: client/components/directives/triggers.directives.js:271
-#: client/components/events/events.directives.js:66
+#: client/components/events/events.directives.js:67
 #, fuzzy
 msgid "Projects"
 msgstr "Rôle du projet"
@@ -7954,7 +7955,7 @@ msgid "Read more in the docs."
 msgstr "Lisez la documentation"
 
 #: client/components/boxes/boxes.directives.js:85
-#: client/components/locations/locations.directives.js:850
+#: client/components/locations/locations.directives.js:851
 #: client/components/views/triggers/_edit.html:159
 msgid "Reboot"
 msgstr "Redémarrer"
@@ -7964,12 +7965,12 @@ msgid "Reboot Box"
 msgstr "Reboot Périphérique"
 
 #: client/components/boxes/boxes.directives.js:284
-#: client/components/locations/locations.directives.js:955
+#: client/components/locations/locations.directives.js:956
 msgid "Reboot it"
 msgstr "Redémarrez il"
 
 #: client/components/boxes/boxes.directives.js:281
-#: client/components/locations/locations.directives.js:952
+#: client/components/locations/locations.directives.js:953
 msgid ""
 "Rebooting will disconnect your clients.\n"
 "A reboot takes about 60 seconds to complete"
@@ -8062,11 +8063,11 @@ msgstr "Retirer"
 msgid "Remove Email"
 msgstr "Supprimer Email"
 
-#: client/components/locations/locations.directives.js:2071
+#: client/components/locations/locations.directives.js:2076
 msgid "Remove From Favourites?"
 msgstr "Retirer de favoris"
 
-#: client/components/locations/locations.directives.js:2073
+#: client/components/locations/locations.directives.js:2078
 msgid "Remove Location"
 msgstr "retirer le lieu"
 
@@ -8098,8 +8099,8 @@ msgstr "Mode Répéteur Désactivé"
 msgid "Repeater Mode Enabled"
 msgstr "Mode Repeater Enabled"
 
-#: client/app/main/main.controllers.js:120
-#: client/app/main/main.controllers.js:80
+#: client/app/main/main.controllers.js:115
+#: client/app/main/main.controllers.js:75
 #: client/components/locations/locations.controller.js:266
 #: client/components/locations/show/_periscope.html:15
 #: client/components/reports/reports.v2.directives.js:169
@@ -8194,7 +8195,7 @@ msgid "Restriction Type"
 msgstr "Type de restriction"
 
 #: client/components/boxes/boxes.directives.js:132
-#: client/components/locations/locations.directives.js:868
+#: client/components/locations/locations.directives.js:869
 msgid "Resync"
 msgstr "Resync"
 
@@ -8202,12 +8203,12 @@ msgstr "Resync"
 msgid "Resync Device"
 msgstr "Resync Dispositif"
 
-#: client/components/locations/locations.directives.js:979
+#: client/components/locations/locations.directives.js:980
 msgid "Resync The Configs for this Device?"
 msgstr "Resync Les Configs pour cet périphérique?"
 
 #: client/components/boxes/boxes.directives.js:253
-#: client/components/locations/locations.directives.js:983
+#: client/components/locations/locations.directives.js:984
 msgid "Resync it"
 msgstr "resync il"
 
@@ -8220,8 +8221,8 @@ msgid "Resynced"
 msgstr "resynced"
 
 #: client/components/directives/users.directives.js:1181
-#: client/components/locations/locations.directives.js:316
-#: client/components/locations/locations.directives.js:581
+#: client/components/locations/locations.directives.js:317
+#: client/components/locations/locations.directives.js:582
 #: client/components/locations/users/_revoke.html:1
 msgid "Revoke"
 msgstr "Retirer"
@@ -8246,7 +8247,7 @@ msgstr "Révoquer utilisateur"
 msgid "Revoke from brand"
 msgstr ""
 
-#: client/components/locations/locations.directives.js:318
+#: client/components/locations/locations.directives.js:319
 msgid "Revoke it"
 msgstr "révoquer il"
 
@@ -8265,7 +8266,7 @@ msgid "Right"
 msgstr "Droite"
 
 #: client/components/directives/triggers.directives.js:267
-#: client/components/events/events.directives.js:58
+#: client/components/events/events.directives.js:59
 msgid "Rogues"
 msgstr ""
 
@@ -8296,7 +8297,7 @@ msgstr ""
 #: client/components/locations/boxes/_table.html:25
 #: client/components/locations/boxes/dialog.html:5
 #: client/components/locations/boxes/zones.html:1
-#: client/components/locations/locations.directives.js:856
+#: client/components/locations/locations.directives.js:857
 #: client/components/payloads/_run_payload.html:4
 msgid "Run Payload"
 msgstr "Payload Run"
@@ -8327,7 +8328,7 @@ msgstr ""
 msgid "Run the command"
 msgstr "Exécutez la commande"
 
-#: client/components/boxes/boxes.directives.js:1771
+#: client/components/boxes/boxes.directives.js:1782
 msgid "Running speedtest, please wait."
 msgstr "Lancement du Speedtest , veuillez svp attendre."
 
@@ -8547,7 +8548,7 @@ msgstr "A la recherche de périphériques, veuillez svp attendre."
 msgid "Secondary Radius"
 msgstr "Rayon secondaire"
 
-#: client/components/locations/locations.directives.js:1681
+#: client/components/locations/locations.directives.js:1686
 #: client/components/networks/networks.directives.js:202
 #: client/components/networks/networks.directives.js:322
 msgid "Security"
@@ -8750,7 +8751,7 @@ msgstr "Délai d'inactivité de la session"
 msgid "Session Timeout (mins)"
 msgstr "Délai d'inactivité de la session (minutes)"
 
-#: client/components/clients/clients.directives.js:1064
+#: client/components/clients/clients.directives.js:1065
 #: client/components/codes/codes.directives.js:44
 #: client/components/reports/_radius_timeline.html:19
 #: client/components/splash_codes/splash_codes.directives.js:305
@@ -8836,8 +8837,8 @@ msgstr "Paramètres"
 msgid "Settings for your splash-only device"
 msgstr "Paramètres de votre périphérique accédant uniquement au portail"
 
-#: client/components/boxes/boxes.directives.js:782
-#: client/components/boxes/boxes.directives.js:898
+#: client/components/boxes/boxes.directives.js:788
+#: client/components/boxes/boxes.directives.js:904
 msgid "Settings updated successfully"
 msgstr "Paramètres mis à jour avec succès"
 
@@ -9009,9 +9010,9 @@ msgid "Slovenia"
 msgstr "Slovénie"
 
 #: client/components/audit/audits.directives.js:55
-#: client/components/clients/clients.directives.js:1074
+#: client/components/clients/clients.directives.js:1075
 #: client/components/directives/triggers.directives.js:257
-#: client/components/events/events.directives.js:61
+#: client/components/events/events.directives.js:62
 #: client/components/splash_pages/splash_pages.filters.js:29
 #: client/components/splash_pages/splash_pages.filters.js:50
 msgid "Social"
@@ -9091,10 +9092,10 @@ msgstr "Restrictions de Débit"
 
 #: client/components/directives/group_policies.directives.js:13
 #: client/components/directives/triggers.directives.js:256
-#: client/components/events/events.directives.js:59
+#: client/components/events/events.directives.js:60
 #: client/components/locations/clients/_show.html:103
 #: client/components/locations/locations.controller.js:126
-#: client/components/locations/locations.directives.js:1687
+#: client/components/locations/locations.directives.js:1692
 #: client/components/locations/locations.filters.js:279
 #: client/components/locations/networks/_index.html:36
 #: client/components/locations/networks/_index.html:8
@@ -9362,7 +9363,7 @@ msgid "Stop: {{ ::session.acctstoptime | humanTime }}"
 msgstr "Stop: {{ ::session.acctstoptime | humanTime }}"
 
 #: client/components/directives/triggers.directives.js:258
-#: client/components/events/events.directives.js:60
+#: client/components/events/events.directives.js:61
 msgid "Store"
 msgstr ""
 
@@ -9379,12 +9380,12 @@ msgid "Store created successfully."
 msgstr "Magasin créé avec succès."
 
 #: client/components/boxes/boxes.directives.js:508
-#: client/components/locations/locations.directives.js:1371
+#: client/components/locations/locations.directives.js:1376
 msgid "Streaming updates disabled"
 msgstr "Flux de Mises à jour désactivés"
 
 #: client/components/boxes/boxes.directives.js:503
-#: client/components/locations/locations.directives.js:1365
+#: client/components/locations/locations.directives.js:1370
 msgid "Streaming updates enabled"
 msgstr "Flux de Mises à jour activés"
 
@@ -9444,7 +9445,7 @@ msgstr "Mis à jour Equipe avec succès "
 msgid "Successfully delete voucher."
 msgstr "Ticket supprimer avec succès."
 
-#: client/components/locations/locations.directives.js:1821
+#: client/components/locations/locations.directives.js:1826
 msgid "Successfully deleted location."
 msgstr "Site supprimé avec succès."
 
@@ -9456,7 +9457,7 @@ msgstr "Politique bien supprimé"
 msgid "Successfully deleted zone"
 msgstr "Groupe supprimé avec succès "
 
-#: client/components/clients/clients.directives.js:702
+#: client/components/clients/clients.directives.js:703
 msgid "Successfully disconnected client."
 msgstr "Déconnexion client réussie."
 
@@ -9473,7 +9474,7 @@ msgstr "Mis à jour Equipe avec succès "
 msgid "Successfully updated details."
 msgstr "Réussir à jour les détails."
 
-#: client/components/locations/locations.directives.js:1427
+#: client/components/locations/locations.directives.js:1432
 msgid "Successfully updated location."
 msgstr "Mise à jour réussie emplacement."
 
@@ -9506,7 +9507,7 @@ msgstr ""
 msgid "Sun"
 msgstr "Dim"
 
-#: client/app/main/main.controllers.js:162 client/index.html:113
+#: client/app/main/main.controllers.js:157 client/index.html:113
 #: client/index.html:118 client/index.html:195
 msgid "Support"
 msgstr "Aide"
@@ -9519,7 +9520,7 @@ msgstr "Support Email"
 msgid "Support Level"
 msgstr "Niveau d'assistance"
 
-#: client/components/locations/locations.directives.js:522
+#: client/components/locations/locations.directives.js:523
 #: client/components/locations/locations.filters.js:252
 msgid "Supporter"
 msgstr "Supporter"
@@ -9777,7 +9778,7 @@ msgstr ""
 msgid "The channel is the way you get notified."
 msgstr "Le canal est la façon dont vous êtes averti."
 
-#: client/components/clients/clients.directives.js:1133
+#: client/components/clients/clients.directives.js:1134
 msgid "The client was logged out"
 msgstr "Le client a été déconnecté"
 
@@ -9893,7 +9894,7 @@ msgstr ""
 msgid "This cannot be reversed."
 msgstr "Ceci ne peut être inversé."
 
-#: client/components/locations/locations.directives.js:1102
+#: client/components/locations/locations.directives.js:1107
 msgid "This cannot be undone."
 msgstr "Ceci ne peut pas être annulé."
 
@@ -9909,7 +9910,7 @@ msgstr "Ce code est valable."
 msgid "This code will be for the splash page"
 msgstr "Ce code sera pour la page de démarrage"
 
-#: client/components/boxes/boxes.directives.js:886
+#: client/components/boxes/boxes.directives.js:892
 msgid "This device is being resynced"
 msgstr ""
 
@@ -9946,7 +9947,7 @@ msgid "This device only supports splash pages. Management is disabled."
 msgstr ""
 "Cet périphérique ne supporte que les pages de garde. Gestion est désactivé."
 
-#: client/components/locations/locations.directives.js:660
+#: client/components/locations/locations.directives.js:661
 msgid "This email has already been added"
 msgstr "Cet e-mail a déjà été ajouté"
 
@@ -10045,7 +10046,7 @@ msgstr "Ce texte ne sera pas apparaître sur la page de connexion."
 msgid "This will clear all active sessions, including this one."
 msgstr "Cela effacera toutes les sessions actives, y compris celui-ci."
 
-#: client/components/locations/locations.directives.js:980
+#: client/components/locations/locations.directives.js:981
 msgid "This will disconnect your clients temporarily."
 msgstr "Cela déconnectera vos clients temporairement."
 
@@ -10058,7 +10059,7 @@ msgstr ""
 "configuration. Une resynchronisation déconnectera tous les clients sans fil "
 "temporairement"
 
-#: client/components/locations/locations.directives.js:1753
+#: client/components/locations/locations.directives.js:1758
 msgid "This will prevent users from logging in."
 msgstr "Cela empêchera les utilisateurs de se connecter."
 
@@ -10074,7 +10075,7 @@ msgstr ""
 "Cela révoquer les autorisations de l'utilisateur. Elle ne supprime pas "
 "l'utilisateur complètement"
 
-#: client/components/locations/locations.directives.js:315
+#: client/components/locations/locations.directives.js:316
 msgid "This will revoke your existing credentials and cannot be reversed."
 msgstr ""
 "Cela révoquera vos informations d'identification existants et ne peut pas "
@@ -10156,7 +10157,7 @@ msgstr "Togo"
 msgid "Tokelau"
 msgstr "Tokelau"
 
-#: client/components/locations/locations.directives.js:339
+#: client/components/locations/locations.directives.js:340
 msgid "Token successfully changed."
 msgstr "Token changé avec succès."
 
@@ -10218,7 +10219,7 @@ msgid "Traffic Isolation Enabled"
 msgstr "Traffic Isolation activé"
 
 #: client/components/boxes/boxes.directives.js:105
-#: client/components/locations/locations.directives.js:1699
+#: client/components/locations/locations.directives.js:1704
 #: client/components/splash_pages/splash_pages.directives.js:203
 msgid "Transfer"
 msgstr "Transférer"
@@ -10330,7 +10331,7 @@ msgstr "Action mise à jour avec succès."
 
 #: client/components/controllers/brands.controller.js:39
 #: client/components/directives/triggers.directives.js:259
-#: client/components/events/events.directives.js:62
+#: client/components/events/events.directives.js:63
 #: client/components/locations/locations.controller.js:109
 #: client/components/views/triggers/_edit.html:6
 #: client/components/views/triggers/list.html:6
@@ -10481,7 +10482,7 @@ msgid ""
 "credentials."
 msgstr ""
 
-#: client/components/locations/locations.directives.js:1705
+#: client/components/locations/locations.directives.js:1710
 msgid "Unarchive"
 msgstr "Désarchiver"
 
@@ -10499,7 +10500,7 @@ msgstr "Test d'Action"
 msgid "Understanding Triggers"
 msgstr "Test d'Action"
 
-#: client/components/locations/locations.directives.js:2025
+#: client/components/locations/locations.directives.js:2030
 msgid "Unfavourite"
 msgstr "Retirer des Favoris"
 
@@ -10660,7 +10661,7 @@ msgstr "Mise à niveau de votre périphérique"
 msgid "Upgrade at 2am localtime on the following date"
 msgstr "Mise à niveau à 2h du matin localtime à la date suivante"
 
-#: client/components/boxes/boxes.directives.js:1436
+#: client/components/boxes/boxes.directives.js:1447
 msgid "Upgrade cancelled successfully."
 msgstr "Mise à jour annulée avec succès."
 
@@ -10732,7 +10733,7 @@ msgstr "En Ligne depuis"
 msgid "Uruguay"
 msgstr "Uruguay"
 
-#: client/components/clients/clients.directives.js:1186
+#: client/components/clients/clients.directives.js:1187
 #: client/components/codes/_table.html:10
 #: client/components/users/quotas/_index.html:23
 msgid "Usage"
@@ -10814,10 +10815,10 @@ msgstr "Nom d'utilisateur (Facultatif)"
 msgid "Username and Password"
 msgstr "Nom d'utilisateur et mot de passe"
 
-#: client/app/main/main.controllers.js:391
-#: client/app/main/main.controllers.js:405
+#: client/app/main/main.controllers.js:302
+#: client/app/main/main.controllers.js:316
 #: client/components/directives/triggers.directives.js:261
-#: client/components/events/events.directives.js:64
+#: client/components/events/events.directives.js:65
 #: client/components/locations/locations.controller.js:162
 #: client/components/locations/users/_index.html:3
 msgid "Users"
@@ -10897,12 +10898,11 @@ msgstr "Vietnam"
 
 #: client/components/audit/sales/_index.html:110
 #: client/components/clients/clients.directives.js:144
-#: client/components/directives/triggers.directives.js:70
 #: client/components/directives/triggers.directives.js:884
 #: client/components/directives/users.directives.js:355
 #: client/components/locations/boxes/_table.html:131
-#: client/components/locations/locations.directives.js:2019
-#: client/components/locations/locations.directives.js:569
+#: client/components/locations/locations.directives.js:2024
+#: client/components/locations/locations.directives.js:570
 #: client/components/locations/show/_map.html:47
 #: client/components/reports/reports.v2.directives.js:401
 #: client/components/splash_codes/splash_codes.directives.js:63
@@ -11018,10 +11018,10 @@ msgstr "Ticket créé avec succès"
 msgid "Voucher {{ voucher.is_active | humanBoolean }}"
 msgstr "Ticket {{ voucher.is_active | humanBoolean }}"
 
-#: client/components/clients/clients.directives.js:1059
+#: client/components/clients/clients.directives.js:1060
 #: client/components/codes/_index.html:3
 #: client/components/directives/triggers.directives.js:260
-#: client/components/events/events.directives.js:63
+#: client/components/events/events.directives.js:64
 #: client/components/locations/versions/_index.html:3
 #: client/components/reports/_radius_stats.html:46
 #: client/components/splash_pages/access-social.html:24
@@ -11390,7 +11390,7 @@ msgid "Wnen a {{object}} is archived"
 msgstr "Lorsqu'un {{object}} est archivée"
 
 #: client/components/boxes/boxes.directives.js:280
-#: client/components/locations/locations.directives.js:951
+#: client/components/locations/locations.directives.js:952
 msgid "Would you like to reboot this device?"
 msgstr "Voulez-vous redémarrer cet périphérique ?"
 
@@ -11465,7 +11465,7 @@ msgid "You can't change the currency if you have an active subscription."
 msgstr ""
 "Vous ne pouvez pas changer la monnaie si vous avez un abonnement actif."
 
-#: client/components/locations/locations.directives.js:1808
+#: client/components/locations/locations.directives.js:1813
 msgid "You cannot delete a location with session data."
 msgstr "Vous ne pouvez pas supprimer un site avec des données de session."
 
@@ -11871,11 +11871,11 @@ msgstr "Votre adresse de tableau de bord est&nbsp;"
 msgid "Your dashboard is being created."
 msgstr "Votre tableau de bord est en cours de création."
 
-#: client/components/boxes/boxes.directives.js:1651
+#: client/components/boxes/boxes.directives.js:1662
 msgid "Your device has been added."
 msgstr "Votre périphérique a été ajouté."
 
-#: client/components/boxes/boxes.directives.js:1654
+#: client/components/boxes/boxes.directives.js:1665
 msgid "Your devices have been added."
 msgstr "Vos périphériques ont été ajouté."
 
@@ -11912,7 +11912,7 @@ msgstr ""
 "Votre délai d'inactivité est plus long que la durée de votre bon. Les "
 "utilisateurs peuvent rester connectés jusqu'à l'expiration de leur bon."
 
-#: client/components/locations/locations.directives.js:1750
+#: client/components/locations/locations.directives.js:1755
 msgid "Your splash pages and networks will be activated."
 msgstr "Vos pages de garde et réseaux seront activés."
 
@@ -11935,7 +11935,7 @@ msgstr ""
 msgid "Your town"
 msgstr "Votre ville"
 
-#: client/components/boxes/boxes.directives.js:1353
+#: client/components/boxes/boxes.directives.js:1362
 msgid "Your upgrade has been scheduled."
 msgstr "Votre mise à niveau a été programmé."
 
@@ -11982,7 +11982,7 @@ msgid "Zone: {{ ::box.metadata.zone_name }}"
 msgstr "Groupe : {{ ::box.metadata.zone_name }}"
 
 #: client/components/directives/triggers.directives.js:262
-#: client/components/events/events.directives.js:65
+#: client/components/events/events.directives.js:66
 #: client/components/locations/locations.controller.js:93
 #: client/components/zones/_index.html:11
 msgid "Zones"
@@ -12004,11 +12004,11 @@ msgstr "[Bienvenue] Merci de vous être connecté"
 msgid "access"
 msgstr "Accès"
 
-#: client/components/clients/clients.directives.js:1195
+#: client/components/clients/clients.directives.js:1196
 msgid "activate"
 msgstr "Activer"
 
-#: client/components/clients/clients.directives.js:1229
+#: client/components/clients/clients.directives.js:1230
 #: client/components/codes/codes.directives.js:89
 #: client/components/splash_codes/splash_codes.directives.js:143
 msgid "activated"
@@ -12054,8 +12054,8 @@ msgstr "annulé"
 msgid "day"
 msgstr "jour"
 
-#: client/components/locations/locations.directives.js:1104
-#: client/components/locations/locations.directives.js:1811
+#: client/components/locations/locations.directives.js:1109
+#: client/components/locations/locations.directives.js:1816
 #: client/components/splash_pages/_menu.html:53
 msgid "delete"
 msgstr "effacer"
@@ -12064,15 +12064,15 @@ msgstr "effacer"
 msgid "delete payload"
 msgstr "supprimer la charge utile"
 
-#: client/components/locations/locations.directives.js:1242
+#: client/components/locations/locations.directives.js:1247
 msgid "device zone"
 msgstr "groupe du périphérique"
 
-#: client/components/locations/locations.directives.js:1239
+#: client/components/locations/locations.directives.js:1244
 msgid "device zones"
 msgstr "les groupes de périphériques"
 
-#: client/components/clients/clients.directives.js:1229
+#: client/components/clients/clients.directives.js:1230
 #: client/components/codes/codes.directives.js:89
 #: client/components/splash_codes/splash_codes.directives.js:143
 msgid "disabled"
@@ -12086,7 +12086,7 @@ msgstr "découvrir les périphériques"
 msgid "events"
 msgstr "Evénements"
 
-#: client/components/boxes/boxes.directives.js:1426
+#: client/components/boxes/boxes.directives.js:1435
 msgid "exit"
 msgstr "Sortir"
 
@@ -12112,7 +12112,7 @@ msgid "menu"
 msgstr "menu"
 
 #: client/components/boxes/boxes.directives.js:378
-#: client/components/locations/locations.directives.js:2190
+#: client/components/locations/locations.directives.js:2195
 msgid "muted"
 msgstr "En sourdine"
 
@@ -12133,7 +12133,7 @@ msgstr "ouvert"
 msgid "password"
 msgstr "mot de passe"
 
-#: client/components/boxes/boxes.directives.js:1425
+#: client/components/boxes/boxes.directives.js:1434
 msgid "please cancel it"
 msgstr "Annulez svp"
 
@@ -12198,7 +12198,7 @@ msgid "transfer"
 msgstr "transfert"
 
 #: client/components/boxes/boxes.directives.js:378
-#: client/components/locations/locations.directives.js:2190
+#: client/components/locations/locations.directives.js:2195
 msgid "unmuted"
 msgstr "unmuted"
 
