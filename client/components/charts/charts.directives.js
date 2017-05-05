@@ -1217,18 +1217,7 @@ app.directive('heartbeatChart', ['$timeout', 'Report', '$routeParams', 'COLOURS'
 
     var data;
 
-    $(window).resize(function() {
-      if (this.resizeTO) {
-        clearTimeout(this.resizeTO);
-      }
-      this.resizeTO = setTimeout(function() {
-        $(this).trigger('resizeEnd');
-      }, 250);
-    });
 
-    $(window).on('resizeEnd', function() {
-      chart();
-    });
 
     function getOptions() {
       return {
