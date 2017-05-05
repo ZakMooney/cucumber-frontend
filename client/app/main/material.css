@@ -665,6 +665,10 @@ location-boxes table {
   opacity: 0 !important;
 }
 
+[heartbeat-chart] > div > div:nth-child(1) > div > div {
+  overflow-y: hidden !important;
+}
+
 [heartbeat-chart]> div > div:nth-child(1) > div > svg > g:nth-child(2) > text {
   opacity: 0 !important;
 }
